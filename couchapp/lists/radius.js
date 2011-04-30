@@ -6,7 +6,7 @@
  * @author Max Ogden
  */
 function(head, req) {
-  var gju = require('vendor/geojson-js-utils/geojson-utils'),
+  var gju = require('vendor/geojson-utils'),
       row,
       out,
       radius = req.query.radius,
